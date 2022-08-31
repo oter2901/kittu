@@ -9,5 +9,53 @@
  */
 
 {
+    "components/alert": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui/components/alert",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
+    "components/divider": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui/components/divider",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
+    "components/icon": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui/components/icon",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
+    "core/styles": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui/core/styles",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
     "$schema-version": "15.0.0"
 }
