@@ -1,4 +1,4 @@
-import { DropdownItem } from '@oter2901/ui-kit-dropdown';
+import { DropdownItem } from '@kittu/ui.components.dropdown';
 
 export type SelectActiveOption<
   V extends number | string,

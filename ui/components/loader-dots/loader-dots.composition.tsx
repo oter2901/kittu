@@ -1,8 +1,6 @@
 import React from 'react';
-import { LoaderDots } from './loader-dots';
+import { LoaderDots } from './index';
 
 export const BasicLoaderDots = () => {
-  return (
-    <LoaderDots>hello world!</LoaderDots>
-  );
-}
+  return <LoaderDots>hello world!</LoaderDots>;
+};

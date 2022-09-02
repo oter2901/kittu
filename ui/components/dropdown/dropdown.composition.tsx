@@ -1,8 +1,6 @@
 import React from 'react';
-import { Dropdown } from './dropdown';
+import { Dropdown } from './index';
 
 export const BasicDropdown = () => {
-  return (
-    <Dropdown>hello world!</Dropdown>
-  );
-}
+  return;
+};

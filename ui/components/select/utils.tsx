@@ -1,6 +1,6 @@
 import React from 'react';
 import { SelectOption } from './types';
-import cls from './styles.scss';
+import cls from './select.module.scss';
 
 // tslint:disable-next-line: no-any
 export const getOptionLabel = (option?: SelectOption<any> | null) => {

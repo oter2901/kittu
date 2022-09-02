@@ -1,8 +1,6 @@
 import React from 'react';
-import { OuterEventsHandler } from './outer-events-handler';
+import { OuterEventsHandler } from './index';
 
 export const BasicOuterEventsHandler = () => {
-  return (
-    <OuterEventsHandler>hello world!</OuterEventsHandler>
-  );
-}
+  return <OuterEventsHandler>hello world!</OuterEventsHandler>;
+};

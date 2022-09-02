@@ -1,6 +1,6 @@
 import * as React from 'react';
 import classnames from 'classnames';
-import cls from './baseInput.scss';
+import cls from './baseInput.module.scss';
 import { CheckboxIcon } from './components/Check';
 
 export type BaseInputProps = JSX.IntrinsicElements['input'] & {

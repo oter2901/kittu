@@ -1,7 +1,7 @@
 import * as React from 'react';
 import classnames from 'classnames';
 
-import './progress.scss';
+import './progress.module.scss';
 
 export type ProgressProps = JSX.IntrinsicElements['div'] & {
   fill?: number;

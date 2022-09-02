@@ -2,7 +2,7 @@ import * as React from 'react';
 import classnames from 'classnames';
 import { FormGroup } from '@kittu/ui.components.form-group';
 
-import cls from './styles.scss';
+import cls from './textField.module.scss';
 
 export type TextFieldProps = JSX.IntrinsicElements['input'] & {
   wrapperProps?: JSX.IntrinsicElements['div'];

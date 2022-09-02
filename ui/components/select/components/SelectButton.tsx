@@ -1,7 +1,7 @@
 import React from 'react';
-import { DropdownButton } from '@oter2901/ui-kit-dropdown';
-import { SelectOptionProps } from './types';
-import { getDisplayValue } from './utils';
+import { DropdownButton } from '@kittu/ui.components.dropdown';
+import { SelectOptionProps } from '../types';
+import { getDisplayValue } from '../utils';
 
 export type SelectButtonProps<
   V extends number | string,
@@ -12,7 +12,7 @@ export type SelectButtonProps<
   };
 
 export const SelectButton = <V extends number | string, M extends boolean>(
-  props: SelectButtonProps<V, M>,
+  props: SelectButtonProps<V, M>
 ) => {
   const { children, placeholder, activeOption, options, ...rest } = props;
   return (
