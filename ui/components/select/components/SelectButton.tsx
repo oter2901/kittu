@@ -1,5 +1,5 @@
 import React from 'react';
-import { DropdownButton } from '@kittu/ui.components.dropdown';
+import { DropdownButton } from '@kittu/ui-kit.components.dropdown';
 import { SelectOptionProps } from '../types';
 import { getDisplayValue } from '../utils';
 

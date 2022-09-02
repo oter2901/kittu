@@ -4,12 +4,12 @@ import classnames from 'classnames';
 import {
   OuterEventsHandler,
   OuterEventsHandlerProps,
-} from '@kittu/ui.core.outer-events-handler';
+} from '@kittu/ui-kit.core.outer-events-handler';
 import {
   useOpenState,
   OpenStateControls,
-} from '@kittu/ui.hooks.use-open-state';
-import { AnyTag } from '@kittu/ui.core.types';
+} from '@kittu/ui-kit.hooks.use-open-state';
+import { AnyTag } from '@kittu/ui-kit.core.types';
 
 import DropdownMenu from './DropdownMenu';
 import DropdownButton from './DropdownButton';

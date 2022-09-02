@@ -3,7 +3,7 @@
 import * as React from 'react';
 import classnames from 'classnames';
 
-import { AnyTag, PropsWithTagProps } from '@kittu/ui.core.types';
+import { AnyTag, PropsWithTagProps } from '@kittu/ui-kit.core.types';
 
 export type CreateSimpleComponentDefaultProps = {
   displayName: string;

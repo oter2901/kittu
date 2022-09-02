@@ -4,10 +4,10 @@ import {
   Dropdown,
   DropdownItem,
   DropdownMenuPosition,
-} from '@kittu/ui.components.dropdown';
-import { TextField } from '@kittu/ui.components.text-field';
-import { ContentTitle } from '@kittu/ui.components.content-title';
-import { FormGroup } from '@kittu/ui.components.form-group';
+} from '@kittu/ui-kit.components.dropdown';
+import { TextField } from '@kittu/ui-kit.components.text-field';
+import { ContentTitle } from '@kittu/ui-kit.components.content-title';
+import { FormGroup } from '@kittu/ui-kit.components.form-group';
 
 import {
   SelectOption,

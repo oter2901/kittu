@@ -1,4 +1,4 @@
-import { createSimpleComponent } from '@kittu/ui.core.create-simple-component';
+import { createSimpleComponent } from '@kittu/ui-kit.core.create-simple-component';
 import cls from './topBar.module.scss';
 
 export const TopBar = createSimpleComponent({

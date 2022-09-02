@@ -1,7 +1,7 @@
 import React from 'react';
 import classnames from 'classnames';
-import { AnyTag, PropsWithTagProps } from '@kittu/ui.core.types';
-import { LoaderDots } from '@kittu/ui.components.loader-dots';
+import { AnyTag, PropsWithTagProps } from '@kittu/ui-kit.core.types';
+import { LoaderDots } from '@kittu/ui-kit.components.loader-dots';
 import cls from './button.module.scss';
 
 export type ButtonPropsBase = {

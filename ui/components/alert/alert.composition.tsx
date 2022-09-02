@@ -1,6 +1,6 @@
 import React from 'react';
-import '@kittu/ui.core.styles/styles.scss';
-import { Icon } from '@kittu/ui.components.icon';
+import '@kittu/ui-kit.core.styles/styles.scss';
+import { Icon } from '@kittu/ui-kit.components.icon';
 import { Alert } from './Alert';
 
 const styles = { minWidth: '100%' };

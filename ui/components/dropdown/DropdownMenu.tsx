@@ -1,10 +1,9 @@
 import * as React from 'react';
 import classnames from 'classnames';
-import { OpenStateControls } from '@kittu/ui.hooks.use-open-state';
+import { OpenStateControls } from '@kittu/ui-kit.hooks.use-open-state';
 import { DropdownMenuPosition } from './Dropdown';
 import { DropdownItem } from './DropdownItem';
 
- 
 import cls from './dropdown.module.scss';
 
 export type DropdownMenuProps<P extends {} = {}> = OpenStateControls &

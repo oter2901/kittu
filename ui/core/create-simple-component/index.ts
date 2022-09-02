@@ -1,2 +1,1 @@
-export { createSimpleComponent } from './createSimpleComponent';
-export type { CreateSimpleComponentProps } from './createSimpleComponent';
+export * from './createSimpleComponent';

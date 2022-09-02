@@ -4,10 +4,10 @@ import {
   Button,
   ButtonPropsBase,
   ButtonRefObject,
-} from '@kittu/ui.components.button';
+} from '@kittu/ui-kit.components.button';
 
-import { OpenStateControls } from '@kittu/ui.hooks.use-open-state';
- 
+import { OpenStateControls } from '@kittu/ui-kit.hooks.use-open-state';
+
 import cls from './dropdown.module.scss';
 
 export type DropdownButtonProps<P extends {} = {}> = OpenStateControls &

@@ -10,448 +10,226 @@
 
 {
     "components/alert": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/alert",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/alert"
     },
     "components/avatar": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/avatar",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/avatar"
     },
     "components/base-input": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/base-input",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/base-input"
     },
     "components/button": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/button",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/button"
     },
     "components/button-group": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/button-group",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/button-group"
     },
     "components/checkbox": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/checkbox",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/checkbox"
     },
     "components/container": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/container",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/container"
     },
     "components/content-title": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/content-title",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/content-title"
     },
     "components/datepicker": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/datepicker",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/datepicker"
     },
     "components/divider": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/divider",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/divider"
     },
     "components/dropdown": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/dropdown",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/dropdown"
     },
     "components/form-group": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/form-group",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/form-group"
     },
     "components/form-group-container": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/form-group-container",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/form-group-container"
     },
     "components/icon": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/icon",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/icon"
     },
     "components/loader-dots": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/loader-dots",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/loader-dots"
     },
     "components/modal": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/modal",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/modal"
     },
     "components/nav-link": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/nav-link",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/nav-link"
     },
     "components/nav-panel": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/nav-panel",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/nav-panel"
     },
     "components/nav-section": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/nav-section",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/nav-section"
     },
     "components/nav-section-title": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/nav-section-title",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/nav-section-title"
     },
     "components/nav-title": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/nav-title",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/nav-title"
     },
     "components/progress": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/progress",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/progress"
     },
     "components/radio": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/radio",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/radio"
     },
     "components/scroll-area": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/scroll-area",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/scroll-area"
     },
     "components/select": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/select",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/select"
     },
     "components/select-date": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/select-date",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/select-date"
     },
     "components/tabs": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/tabs",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/tabs"
     },
     "components/text-area": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/text-area",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/text-area"
     },
     "components/text-field": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/text-field",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/text-field"
     },
     "components/toggle": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/toggle",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/toggle"
     },
     "components/top-bar": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/top-bar",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/top-bar"
     },
     "components/widget": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/components/widget",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/components/widget"
     },
     "core/create-simple-component": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/core/create-simple-component",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/core/create-simple-component"
     },
     "core/outer-events-handler": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "ui/core/outer-events-handler",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/core/outer-events-handler"
     },
     "core/styles": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "ui/core/styles",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/core/styles"
     },
     "core/types": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "ui/core/types",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/core/types"
     },
     "hooks/use-open-state": {
-        "scope": "",
-        "version": "",
+        "scope": "kittu.ui-kit",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "ui/hooks/use-open-state",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "ui/hooks/use-open-state"
     },
     "$schema-version": "15.0.0"
 }

@@ -6,11 +6,11 @@ import {
   DatepickerValue,
   DatepickerRangeValue,
   useDatepickerValue,
-} from '@kittu/ui.components.datepicker';
-import { Dropdown } from '@kittu/ui.components.dropdown';
-import { ContentTitle } from '@kittu/ui.components.content-title';
-import { useOpenState } from '@kittu/ui.hooks.use-open-state';
-import { FormGroup } from '@kittu/ui.components.form-group';
+} from '@kittu/ui-kit.components.datepicker';
+import { Dropdown } from '@kittu/ui-kit.components.dropdown';
+import { ContentTitle } from '@kittu/ui-kit.components.content-title';
+import { useOpenState } from '@kittu/ui-kit.hooks.use-open-state';
+import { FormGroup } from '@kittu/ui-kit.components.form-group';
 
 import cls from './selectDate.module.scss';
 

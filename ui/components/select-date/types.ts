@@ -1,4 +1,4 @@
-import { DatepickerValue } from '@kittu/ui.components.datepicker';
+import { DatepickerValue } from '@kittu/ui-kit.components.datepicker';
 
 export type SelectDateRenderValue<M extends boolean> = (
   value?: DatepickerValue<M>,

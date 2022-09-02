@@ -2,7 +2,7 @@ import React from 'react';
 import {
   DatepickerValue,
   DatepickerRangeValue,
-} from '@kittu/ui.components.datepicker';
+} from '@kittu/ui-kit.components.datepicker';
 
 export const defaultRenderValue = <M extends boolean>(
   value?: DatepickerValue<M>,

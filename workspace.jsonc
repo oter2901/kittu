@@ -27,7 +27,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "kittu.ui"
+    "defaultScope": "kittu.ui-kit"
   },
   /**
    * main configuration for component dependency resolution.

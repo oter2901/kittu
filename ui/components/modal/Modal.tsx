@@ -3,10 +3,10 @@ import classnames from 'classnames';
 import {
   OuterEventsHandler,
   OuterEventsHandlerProps,
-} from '@kittu/ui.core.outer-events-handler';
-import { Button } from '@kittu/ui.components.button';
+} from '@kittu/ui-kit.core.outer-events-handler';
+import { Button } from '@kittu/ui-kit.components.button';
 import { Overlay, OverlayControlProps } from './components/Overlay';
- 
+
 import cls from './modal.module.scss';
 import { ModalBody } from './components/ModalBody';
 import { ModalHeader } from './components/ModalHeader';

@@ -9,7 +9,7 @@
 
 import * as React from 'react';
 import classnames from 'classnames';
-import { Omit } from '@kittu/ui.core.types';
+import { Omit } from '@kittu/ui-kit.core.types';
 
 import cls from './outerEventsHandler.module.scss';
 

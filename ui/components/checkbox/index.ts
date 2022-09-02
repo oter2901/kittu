@@ -1,4 +1,4 @@
-import { BaseInput } from '@kittu/ui.components.base-input';
+import { BaseInput } from '@kittu/ui-kit.components.base-input';
 
 export const Checkbox = BaseInput;
 

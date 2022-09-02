@@ -1,6 +1,6 @@
 import * as React from 'react';
 import classnames from 'classnames';
-import { FormGroup } from '@kittu/ui.components.form-group';
+import { FormGroup } from '@kittu/ui-kit.components.form-group';
 
 import cls from './textField.module.scss';
 
