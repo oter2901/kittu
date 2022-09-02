@@ -1,9 +1,9 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { BasicDivider } from './divider.composition';
+import { BasicAvatar } from './avatar.composition';
 
 it('should render with the correct text', () => {
-  const { getByText } = render(<BasicDivider />);
+  const { getByText } = render(<BasicAvatar />);
   const rendered = getByText('hello world!');
   expect(rendered).toBeTruthy();
 });

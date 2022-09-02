@@ -21,6 +21,102 @@
             }
         }
     },
+    "components/avatar": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui/components/avatar",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
+    "components/base-input": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui/components/base-input",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
+    "components/button": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui/components/button",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
+    "components/button-group": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui/components/button-group",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
+    "components/checkbox": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui/components/checkbox",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
+    "components/container": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui/components/container",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
+    "components/content-title": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui/components/content-title",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
+    "components/datepicker": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui/components/datepicker",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
     "components/divider": {
         "scope": "",
         "version": "",
@@ -45,11 +141,71 @@
             }
         }
     },
+    "components/loader-dots": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui/components/loader-dots",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
+    "components/widget": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui/components/widget",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
+    "core/create-simple-component": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui/core/create-simple-component",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
     "core/styles": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
         "rootDir": "ui/core/styles",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
+    "core/types": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui/core/types",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
+    "hooks/use-open-state": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui/hooks/use-open-state",
         "config": {
             "teambit.react/react": {},
             "teambit.envs/envs": {
