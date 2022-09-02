@@ -1,5 +1,4 @@
 import React from 'react';
-//@ts-ignore
 import cls from '../datepicker.module.scss';
 
 import { generateArrayOfLen, isMonthDisabled } from '../utils';

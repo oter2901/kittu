@@ -10,7 +10,7 @@
 import * as React from 'react';
 import classnames from 'classnames';
 import { Omit } from '@kittu/ui.core.types';
-//@ts-ignore
+
 import cls from './outerEventsHandler.module.scss';
 
 export type OuterEventsHandlerProps = Omit<

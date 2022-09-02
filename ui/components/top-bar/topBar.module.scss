@@ -1,0 +1,19 @@
+@import '@oter2901/ui-kit-core/_vars.scss';
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background: $bg-main;
+  flex-shrink: 0;
+  flex-grow: 0;
+  z-index: 100;
+  border-bottom: $border-default-base;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  &.top-bar-center {
+    justify-content: center;
+  }
+}

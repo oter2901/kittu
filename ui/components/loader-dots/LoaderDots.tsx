@@ -1,6 +1,6 @@
 import React from 'react';
 import classnames from 'classnames';
-//@ts-ignore
+
 import cls from './loaderDots.module.scss';
 
 export type LoaderDotsProps = JSX.IntrinsicElements['span'];

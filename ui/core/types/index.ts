@@ -1,5 +1,4 @@
 import * as React from 'react';
-import './styles.scss';
 
 /**
  * string or react component

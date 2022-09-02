@@ -1,6 +1,5 @@
 import * as React from 'react';
 import classnames from 'classnames';
-//@ts-ignore
 import cls from './baseInput.scss';
 import { CheckboxIcon } from './components/Check';
 

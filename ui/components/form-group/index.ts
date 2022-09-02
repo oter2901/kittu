@@ -1,5 +1,5 @@
 import { createSimpleComponent } from '@kittu/ui.core.create-simple-component';
-//@ts-ignore
+ 
 import cls from './formGroup.module.scss';
 
 export const FormGroup = createSimpleComponent({

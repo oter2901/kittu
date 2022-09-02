@@ -1,5 +1,4 @@
 import * as React from 'react';
-//@ts-ignore
 import cls from '../avatar.module.scss';
 
 export type AvatarStatusProps = {

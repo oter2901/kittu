@@ -1,5 +1,4 @@
 import * as React from 'react';
-//@ts-ignore
 import cls from '../baseInput.module.scss';
 
 /* eslint-disable max-len */

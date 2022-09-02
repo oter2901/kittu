@@ -1,7 +1,7 @@
 import React from 'react';
 import classnames from 'classnames';
 
-//@ts-ignore
+ 
 import cls from '../datepicker.module.scss';
 
 import {

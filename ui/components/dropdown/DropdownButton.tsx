@@ -7,7 +7,7 @@ import {
 } from '@kittu/ui.components.button';
 
 import { OpenStateControls } from '@kittu/ui.hooks.use-open-state';
-//@ts-ignore
+ 
 import cls from './dropdown.module.scss';
 
 export type DropdownButtonProps<P extends {} = {}> = OpenStateControls &

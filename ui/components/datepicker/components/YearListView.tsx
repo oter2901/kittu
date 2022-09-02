@@ -1,6 +1,6 @@
 import React from 'react';
 
-//@ts-ignore
+ 
 import cls from '../datepicker.module.scss';
 
 import { generateArrayOfLen, isYearDisabled } from '../utils';

@@ -14,7 +14,6 @@ import { AnyTag } from '@kittu/ui.core.types';
 import DropdownMenu from './DropdownMenu';
 import DropdownButton from './DropdownButton';
 
-//@ts-ignore
 import cls from './dropdown.module.scss';
 
 export enum DropdownMenuPosition {

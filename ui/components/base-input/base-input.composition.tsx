@@ -1,8 +1,6 @@
 import React from 'react';
-import { BaseInput } from './base-input';
+import { BaseInput } from './index';
 
 export const BasicBaseInput = () => {
-  return (
-    <BaseInput>hello world!</BaseInput>
-  );
-}
+  return <BaseInput>hello world!</BaseInput>;
+};

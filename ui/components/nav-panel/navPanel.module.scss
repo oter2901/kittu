@@ -1,0 +1,47 @@
+@import '~@kittu/ui.core.styles/vars.scss';
+
+.nav-panel {
+  /* Menu Base: */
+  background-color: $bg-main;
+  height: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 270px;
+  width: 270px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+
+  &:not(.nav-panel-right) {
+    border-right: $border-default-base;
+
+    &.nav-panel-dark {
+      border-right: $border-default-adverse;
+    }
+  }
+
+  &.nav-panel-right {
+    border-left: $border-default-base;
+
+    &.nav-panel-dark {
+      border-left: $border-default-adverse;
+    }
+  }
+}
+
+.nav-panel-dark {
+  @extend .nav-panel;
+  background-color: $bg-adverse-main;
+  color: $text-base;
+
+  --text-main: #fff;
+  --text-base: #fbfbfd;
+  --text-adverse-main: #3e3f42;
+  --text-adverse-base: #6b6c6f;
+  --text-adverse-secondary: #9ea0a5;
+  --text-adverse-tertiary: #cecfd2;
+  --border-color-base: #2e2e33;
+
+  .nav-link.active .nav-link-text {
+    color: $text-main;
+  }
+}

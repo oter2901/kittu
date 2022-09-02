@@ -1,6 +1,6 @@
 import * as React from 'react';
 import classnames from 'classnames';
-//@ts-ignore
+
 import cls from './formGroupContainer.module.scss';
 
 export type FormGroupContainerProps = JSX.IntrinsicElements['div'] & {

@@ -10,7 +10,6 @@ import {
   defaultRenderWeekdayShort,
 } from './defaultRenders';
 import { useVisibleDate } from './hooks/useVisibleDate';
-//@ts-ignore
 import cls from './datepicker.module.scss';
 
 import {

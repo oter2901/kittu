@@ -2,7 +2,6 @@ import * as React from 'react';
 import classnames from 'classnames';
 
 import { AvatarImageSingle, AvatarImageMulti } from './components/AvatarImage';
-//@ts-ignore
 import cls from './avatar.module.scss';
 
 export * from './components/AvatarImage';

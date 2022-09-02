@@ -1,6 +1,6 @@
 import * as React from 'react';
 import classnames from 'classnames';
-//@ts-ignore
+
 import cls from './buttonGroup.module.scss';
 
 export type ButtonGroupProps = JSX.IntrinsicElements['div'] & {

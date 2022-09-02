@@ -1,6 +1,5 @@
 import React, { ReactNode } from 'react';
 import classnames from 'classnames';
-// @ts-ignore
 import cls from './alert.module.scss';
 
 export type AlertProps = JSX.IntrinsicElements['div'] & {

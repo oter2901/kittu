@@ -4,7 +4,7 @@ import { OpenStateControls } from '@kittu/ui.hooks.use-open-state';
 import { DropdownMenuPosition } from './Dropdown';
 import { DropdownItem } from './DropdownItem';
 
-//@ts-ignore
+ 
 import cls from './dropdown.module.scss';
 
 export type DropdownMenuProps<P extends {} = {}> = OpenStateControls &

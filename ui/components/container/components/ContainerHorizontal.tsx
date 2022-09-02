@@ -1,5 +1,5 @@
 import { createSimpleComponent } from '@kittu/ui.core.create-simple-component';
-//@ts-ignore
+
 import cls from './containerHorizontal.module.scss';
 
 export const ContainerHorizontal = createSimpleComponent({

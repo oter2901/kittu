@@ -1,6 +1,6 @@
 import * as React from 'react';
 import classnames from 'classnames';
-//@ts-ignore
+ 
 import cls from './divider.module.scss';
 
 export type DividerProps = JSX.IntrinsicElements['div'] & {
