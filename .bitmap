@@ -129,6 +129,42 @@
             }
         }
     },
+    "components/dropdown": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui/components/dropdown",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
+    "components/form-group": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui/components/form-group",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
+    "components/form-group-container": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui/components/form-group-container",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
     "components/icon": {
         "scope": "",
         "version": "",
@@ -170,6 +206,18 @@
         "version": "",
         "mainFile": "index.ts",
         "rootDir": "ui/core/create-simple-component",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
+    "core/outer-events-handler": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ui/core/outer-events-handler",
         "config": {
             "teambit.react/react": {},
             "teambit.envs/envs": {

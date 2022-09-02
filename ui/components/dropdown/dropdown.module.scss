@@ -1,0 +1,232 @@
+@import '~@kittu/ui.core.styles/vars.scss';
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  z-index: 500;
+  background: $bg-main;
+  border: $border-default-main;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  list-style: none;
+  min-width: 140px;
+  padding: 0;
+  margin: 0;
+  float: none;
+  max-height: 240px;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  display: none;
+  // default position
+  top: 100%;
+  right: 0;
+
+  & > * {
+    &:first-child {
+      border-top-left-radius: 4px !important;
+      border-top-right-radius: 4px !important;
+    }
+
+    &:last-child {
+      border-bottom-left-radius: 4px !important;
+      border-bottom-right-radius: 4px !important;
+    }
+  }
+
+  display: block;
+  opacity: 0;
+  transform: scale(0.9);
+  visibility: hidden;
+
+  transition: 0.1s all, 0.1s visibility 0.1s;
+  &.show {
+    transition: 0.1s;
+    opacity: 1;
+    transform: scale(1);
+    visibility: visible;
+  }
+
+  &.bottom-right {
+    top: calc(100% + 4px);
+    left: 0;
+    right: auto;
+    bottom: auto;
+  }
+
+  &.bottom-left {
+    top: calc(100% + 4px);
+    left: auto;
+    right: 0;
+    bottom: auto;
+  }
+
+  &.bottom-center {
+    top: calc(100% + 4px);
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translateX(-50%);
+  }
+
+  &.top-right {
+    bottom: calc(100% + 4px);
+    left: 0;
+    right: auto;
+    top: auto;
+  }
+
+  &.top-left {
+    bottom: calc(100% + 4px);
+    left: auto;
+    right: 0;
+    top: auto;
+  }
+
+  &.top-center {
+    bottom: calc(100% + 4px);
+    left: 50%;
+    transform: translateX(-50%);
+    top: auto;
+    right: auto;
+  }
+
+  &.right-center {
+    bottom: auto;
+    left: calc(100% + 4px);
+    transform: translateY(-50%);
+    top: 50%;
+    right: auto;
+  }
+
+  &.right-top {
+    top: auto;
+    bottom: 0;
+    left: calc(100% + 4px);
+    right: auto;
+    transform: none;
+  }
+  &.right-bottom {
+    top: 0;
+    bottom: auto;
+    left: calc(100% + 4px);
+    right: auto;
+    transform: none;
+  }
+
+  &.left-center {
+    top: 50%;
+    bottom: auto;
+    left: auto;
+    right: calc(100% + 4px);
+    transform: translateY(-50%);
+  }
+  &.left-top {
+    top: auto;
+    bottom: 0;
+    left: auto;
+    right: calc(100% + 4px);
+    transform: none;
+  }
+  &.left-bottom {
+    top: 0;
+    bottom: auto;
+    left: auto;
+    right: calc(100% + 4px);
+    transform: none;
+  }
+}
+
+.dropdown-toggle {
+  background: $bg-main;
+  border-color: $border-color-main;
+  position: relative;
+  padding-right: 2rem;
+  justify-content: flex-start;
+
+  &.btn-square {
+    &:after,
+    &:before {
+      display: none;
+    }
+  }
+
+  &:after {
+    transform: translateY(-3px) rotate(270deg);
+  }
+
+  &:before {
+    transform: translateY(3px) rotateY(180deg) rotate(90deg);
+  }
+}
+
+.dropdown-toggle {
+  &:after,
+  &:before {
+    color: inherit;
+    opacity: 0.5;
+    display: flex;
+    font-size: 0.6rem;
+    content: '▸';
+    border: none;
+    position: absolute;
+    right: 14px;
+  }
+}
+
+.dropdown-toggle {
+  &.btn-square,
+  &.dropdown-toggle-no-arrows {
+    &:before,
+    &:after {
+      display: none;
+    }
+  }
+  &.dropdown-toggle-no-arrows {
+    padding-right: $btn-padding-base-x;
+  }
+}
+
+.btn.dropdown-item,
+.dropdown-item {
+  text-align: left;
+  background: $bg-main;
+  box-shadow: none;
+  @include btn();
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+
+  &,
+  &:hover,
+  &:focus,
+  &:active {
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: $border-default-base;
+    color: $text-main;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  &:hover,
+  &:focus {
+    background: $bg-base;
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+
+  &:disabled {
+    background: $border-color-base;
+  }
+}
